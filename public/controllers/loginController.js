@@ -1,5 +1,7 @@
 //angular
 Mean.controller('loginController', function($scope, $http, $location) {
+
+    
     $scope.submit = function(accountID) {
         
         console.log("ahoy!");        
